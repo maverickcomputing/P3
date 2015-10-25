@@ -19,13 +19,11 @@
   <form method='POST' action='/users'>
 
       <input type='hidden' name='_token' value='{{ csrf_token() }}'>
-
+<br><br>
     How many Users do you want?
 
     <input type='text' name='number' value="<?php if(isset($_POST['number'])) echo $_POST['number']; ?>"</input>    (Max:99)<br>
-    Include.... <br>
-    Address:<input type='checkbox' name='address'> <br>
-    Profile:<input type='checkbox' name='profile'>   <br>
+  <br>
 
     <input type='submit' value'Generate'>
 

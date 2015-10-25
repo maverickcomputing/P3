@@ -57,35 +57,15 @@ public function postIndex(Request $request)
             for ($i=0; $i < $NoNames; $i++){
 
                 $randomStuff[] = $faker->title.' '.$faker->name;
-
+                $RandomAdd[] = $faker->address;
+                $RandomPro[] = $faker->text;
 
     //loop and store each username into the username array
             }
 
 
-            if (isset($_POST["address"]))
 
-            {
-
-              for ($i=0; $i < $NoNames; $i++)
-              {
-
-              $RandomAdd[] = $faker->address;
-              }
-
-            }
-
-
-
-            if (isset($_POST["profile"]))
-
-            {
-              for ($i=0; $i < $NoNames; $i++){
-
-              $RandomPro[] = $faker->text;
-            }
-
-            }
+          
 
 
 
