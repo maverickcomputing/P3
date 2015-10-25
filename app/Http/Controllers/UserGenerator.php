@@ -65,7 +65,7 @@ public function postIndex(Request $request)
 
 
 
-          
+
 
 
 
