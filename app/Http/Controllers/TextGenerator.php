@@ -26,8 +26,7 @@ class TextGenerator extends Controller
 
     public function postIndex(Request $request)
    {
-      $this->validate($request, [
-        'number' => 'required|max:100',
+      $this->validate($request, ['number' => 'required|integer|min:1|max:99',
       ]);
       $numParagraphs = $request->input('number');
       $generator = new Generator();
