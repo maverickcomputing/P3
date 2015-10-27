@@ -26,14 +26,17 @@ class UserGenerator extends Controller
 public function postIndex(Request $request)
 
     {
-          // $NoNames = $request->input('number','5');
 
-          // Validate the request data
+
+  // Validate the request data
+
           $this->validate($request,
                 ['number' => 'required|integer|min:1|max:99',
                 ]);
 
  // If the code makes it here, you can assume the validation passed
+
+
  $NoNames = $request->input('number');
 
 

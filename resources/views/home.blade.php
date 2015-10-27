@@ -1,60 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Laravel</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-        <style>
-            html, body {
-                height: 80%;
-            }
-
-            body {
-                margin: 10;
-                padding: 10;
-                width: 80%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: left;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: left;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 80px;
-                text-align: center;
-            }
-
-            .h1 {
-                font-family: 'verdana';
-                border-bottom: 3px solid #cc9900;
-                color: #996600;
-                font-size: 40px;
-                text-align: left;
-            }
-            .p {
-                font-family: 'Lato';
-                border-bottom: 3px solid #cc9900;
-                color: #996600;
-                font-size: 12px;
-                text-align: left;
-            }
-        </style>
+        <!-- Bootstrap core CSS -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">P3 : Developer's Best Friend</div>
+                <div class="title"><h1>P3 : Developer's Best Friend</h1></div>
                 <br><br><br><br>
 
                 <h1>Lorem Ipsum Generator</h1>
@@ -85,6 +39,10 @@ Create random filler text for your applications.
 </p>
 
 <br><br><br><br><br>
+<footer>
+    &copy;{{"Perkins & Perkins " }}{{ date('Y') }}
+</footer>
+
 
             </div>
         </div>

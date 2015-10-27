@@ -16,13 +16,13 @@
 
 <a href="/">Home.....</a>
 <br>
-<h1>Generate Lorem Ipsum  Paragraphs</h1>
+<h3>Generate Lorem Ipsum  Paragraphs</h3>
   <form method='POST' action='/text'>
 
     <input type='hidden' name='_token' value='{{ csrf_token() }}'>
 
     How many paragraphs do you want?
-    <input type='text' name='number' value=''>    (Max:99)<br>
+    <input type='text' placeholder=" Max: 99" name='number' value=''>
 
   <input type='submit' class="btn btn-primary" value'Generate'>
 </form> <br><br>
