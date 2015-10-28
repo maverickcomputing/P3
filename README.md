@@ -9,14 +9,15 @@
 
 <https://github.com/maverickcomputing/P3>
 
-## DEMO: 
+## DEMO:
 Screencast is unavailable, I will add the link:
 
+<http://screencast.com/t/4weZjATRs>
 
 
 ## Description:
 
-Laravel Application that generates random users and paragraphs. 
+Laravel Application that generates random users and paragraphs.
 
 
 ### Dependencies:  
@@ -26,5 +27,4 @@ Laravel Application that generates random users and paragraphs.
 
 ##Additional information:
 
-None. 
-
+None.
